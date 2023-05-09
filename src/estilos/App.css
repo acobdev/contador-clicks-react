@@ -1,0 +1,30 @@
+/* INICIALIZAMOS LOS MÁRGENES DE LA APLICACIÓN */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* ETIQUETAS DE ESTILO DE LA APP */
+html,
+body {
+  font-size: 18px;
+  background-color: rgb(38, 38, 185);
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.contenedor-botones {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2em;
+}

@@ -1,0 +1,40 @@
+button {
+    height: 3em;
+    width: 12em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 0.8rem;
+    margin: 0.5em;
+    cursor: pointer;
+    box-shadow: 0 0.1em 0.8em 0.1em rgb(0, 0, 0);
+    user-select: none;
+}
+
+button:hover {
+    transition-duration: 0.5s;
+}
+
+.btn-contador {
+    color:antiquewhite;
+    background-color: rgb(14, 104, 14);
+    border: 0.2em solid rgb(6, 48, 5);
+}
+
+.btn-contador:hover {
+    color: black;
+    background-color: greenyellow;
+    border: 0.2em solid green;
+}
+
+.btn-reiniciar {
+    color: antiquewhite;
+    background-color: purple;
+    border: 0.2em solid rgb(65, 6, 80);
+}
+
+.btn-reiniciar:hover {
+    color: black;
+    background-color: rgb(108, 40, 172);
+    border: 0.2em solid rgb(122, 9, 122);
+}

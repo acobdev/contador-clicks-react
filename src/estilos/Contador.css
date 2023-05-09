@@ -1,0 +1,16 @@
+.contenedor-contador {
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    padding: 2em;
+    background-color: antiquewhite;
+    border: 0.8em solid black;
+    box-shadow: 0 1em 4em 0.1em rgb(0, 0, 0);
+}
+
+.contador-app {
+    font-size: 8em;
+    font-family: 'Courier New', Courier, monospace;
+}
